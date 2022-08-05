@@ -1,9 +1,9 @@
 # get twitter access
 twitter_token <- rtweet::rtweet_bot(
-  api_key       = Sys.getenv("TWITTER_CONSUMER_API_KEY"),
-  api_secret    = Sys.getenv("TWITTER_CONSUMER_API_SECRET"),
-  access_token  = Sys.getenv("TWITTER_ACCESS_TOKEN"),
-  access_secret = Sys.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+  api_key       = Sys.getenv("COWBOYSSB_API_KEY"),
+  api_secret    = Sys.getenv("COWBOYSSB_API_SECRET"),
+  access_token  = Sys.getenv("COWBOYSSB_ACCESS_TOKEN"),
+  access_secret = Sys.getenv("COWBOYSSB_ACCESS_TOKEN_SECRET")
 )
 
 # calculate days since SBXXX (Jan 28 1996)
