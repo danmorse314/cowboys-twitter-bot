@@ -8,10 +8,10 @@ jobs:
   cowboyssb-post:
     runs-on: macOS-latest
     env:
-      TWITTER_CONSUMER_API_KEY: ${{ secrets.COWBOYSSB_API_KEY }}
-      TWITTER_CONSUMER_API_SECRET: ${{ secrets.COWBOYSSB_API_SECRET }}
-      TWITTER_ACCESS_TOKEN: ${{ secrets.COWBOYSSB_ACCESS_TOKEN }}
-      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.COWBOYSSB_ACCESS_TOKEN_SECRET }}
+      COWBOYSSB_API_KEY: ${{ secrets.COWBOYSSB_API_KEY }}
+      COWBOYSSB_API_SECRET: ${{ secrets.COWBOYSSB_API_SECRET }}
+      COWBOYSSB_ACCESS_TOKEN: ${{ secrets.COWBOYSSB_ACCESS_TOKEN }}
+      COWBOYSSB_ACCESS_TOKEN_SECRET: ${{ secrets.COWBOYSSB_ACCESS_TOKEN_SECRET }}
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@master
