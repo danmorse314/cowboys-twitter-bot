@@ -2,7 +2,7 @@ name: lastcowboyssbbot
 
 on:
   schedule:
-      - cron: '26 22 * * *'
+      - cron: '45 22 * * *'
 
 jobs:
   cowboyssb-post:
