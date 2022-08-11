@@ -12,7 +12,9 @@ days <- (Sys.Date() - as.Date("1996-01-28")) |>
   format(big.mark = ",")
 
 # write tweet
-tweet <- paste(days, "days since the Dallas Cowboys won a Super Bowl")
+tweet <- paste(days, "days since the Dallas Cowboys won a Super Bowl
+
+#Cowboys")
 
 # send tweet
 rtweet::post_tweet(
